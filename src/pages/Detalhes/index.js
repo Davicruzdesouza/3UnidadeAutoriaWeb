@@ -36,7 +36,11 @@ function Detalhes() {
       <Card style={{ width: "18rem" }}>
         <Card.Img src={pokemonData.sprites?.front_default} />
         <Card.Body>
+          <Card.Title>Id: {pokemonData.id}</Card.Title>
           <Card.Title>Name: {pokemonData.name}</Card.Title>
+          <Card.Title>Altura: {pokemonData.height}</Card.Title>
+          <Card.Title>Peso: {pokemonData.weight}</Card.Title>
+          <Card.Title>Comprimento: {pokemonData.base_experience}</Card.Title>
         </Card.Body>
       </Card>
     </Container>
