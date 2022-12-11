@@ -1,0 +1,14 @@
+.card-custom {
+  margin: 10px 0;
+}
+
+.container-custom {
+  background-color: beige;
+}
+
+.container-detail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
